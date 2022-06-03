@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from 'bootstrap';
 import { NavLink } from 'react-router-dom';
-import Products from './Products';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
@@ -14,10 +13,9 @@ import {Routes ,Route} from 'react-router-dom';
 const CategoriesMain = () => {
     return (
         <div>
-  {/* <Navbar/> */}
+  <Navbar/>
 
-            <Products/>
-  {/* <Footer/> */}
+  <Footer/>
 
         </div>
     );
