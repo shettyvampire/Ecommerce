@@ -1,42 +1,51 @@
-
-
-.navbar-brand{
+.navbar-brand {
   text-align: center;
 }
-.card{
-
+.card {
   transition: all 0.5s ease;
 }
-.card:hover{
-  cursor:pointer;
-  box-shadow: 0 .5rem 1rem rgb(255, 255, 255);
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem rgb(255, 255, 255);
 }
-.d-grid{
+.btn:hover {
+  font-size: 17px;
+  background-color: rgb(155, 149, 149);
+}
+.d-grid {
   font-size: 20px;
 }
-.btn{
+.btn {
   background-color: rgb(222, 232, 233);
 }
-.bgc{
+.bgc {
   background-color: rgb(222, 232, 233);
 }
-#we_home{
+#we_home {
   background: rgb(0, 101, 219);
-  background: linear-gradient(90deg, rgb(190, 232, 235) 50%, rgb(240, 215, 238) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(190, 232, 235) 50%,
+    rgb(240, 215, 238) 100%
+  );
   min-height: 500px;
 }
-#home{
+#home {
   background-color: rgb(221, 159, 26);
-  background: linear-gradient(90deg, rgb(221, 159, 26) 35%, rgb(223, 195, 118) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(221, 159, 26) 35%,
+    rgb(223, 195, 118) 100%
+  );
   height: 50vh;
 }
 .App {
   text-align: center;
 }
 
-.Navbar{
+.Navbar {
   max-height: 100vh;
-  font-family: 'Gabriela', serif;
+  font-family: "Gabriela", serif;
 }
 .App-logo {
   height: 40vmin;
