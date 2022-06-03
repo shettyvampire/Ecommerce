@@ -17,7 +17,7 @@ const Home = () => {
                     <div className ="row justify-content-center">
                         <div className = "col-md-8 mt-6">
                         <h1 className="display-4 fw-bolder mb-3 text-center">
-                               Make Yourself Happy With We5 Fashion </h1>
+                               Make Yourself Happy With We5 Fashions </h1>
                             <p className="lead text-center fs-4 mb-5">
                             Ready-to-wear, clothes and other different accesories are a cross between haute couture and mass market. They are not made for individual customers, but great care is taken in each choice. 
                             </p> 
