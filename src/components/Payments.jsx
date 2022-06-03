@@ -67,7 +67,7 @@ const Payments = () => {
                         <input type="text" placeholder=""/>
                     </div>
                 </div>
-                <button class="btns d-flex mx-auto"><b>Add card</b></button>
+                <button class="btns d-flex mx-auto text-light bg-success"><b>Add card</b></button>
             </form>
         </div><br />
         <Footer/>
