@@ -8,7 +8,7 @@ import {Routes ,Route} from 'react-router-dom';
 const Home = () => {
     return (
     <div>  
-<Navbar/>
+{/* <Navbar/> */}
         <div className='container1-fluid'>
              
             <Carousel/>
@@ -30,7 +30,7 @@ const Home = () => {
         
             
             <Categories/>
-  <Footer/>
+  {/* <Footer/> */}
 
             {/* <Products/>  */}
 

@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 const Login = () => {
     return (
         <div>
-            <Navbar/>
+            {/* <Navbar/> */}
         <div class="log bg-dark text-light"><br /><hr size="10" /><br />
             <div class="vh-100"> <div class="container-fluid h-auto ">
                 <div class="row d-flex justify-content-center align-items-center h-100">
@@ -68,6 +68,7 @@ const Login = () => {
                                 <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? </p>
                                 <NavLink to="/register" type="button" className="link-primary">
                                 Sign Up</NavLink>
+                                
                             </div>
                             <br />
      
@@ -81,7 +82,7 @@ const Login = () => {
 
             
             </div>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
 
     );

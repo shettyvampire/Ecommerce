@@ -10,7 +10,7 @@ import { NavLink } from 'react-router-dom';
  const We_home = () => {
   return (
     <div>
-      <We_navbar/>
+      {/* <We_navbar/> */}
      
         <section id="we_home">
             <div className="container">
@@ -31,7 +31,7 @@ import { NavLink } from 'react-router-dom';
         <We_about/>
         <We_services/>
         <We_contact/>
-        <We_footer/>
+        {/* <We_footer/> */}
    
 
     </div>
