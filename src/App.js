@@ -13,7 +13,6 @@ import Register from './components/Register';
 import Payments from './components/Payments';
 import Cart from './components/Cart';
 import { FaShoppingCart } from "react-icons/fa";
-import Products from './components/Products';
 import  We_home from './components/We_home';
 import  We_about from './components/We_about';
 import  We_contact from './components/We_contact';
@@ -42,7 +41,6 @@ function App() {
   <Route path='/register' element={<Register/>}/> 
   <Route path='/payments' element={<Payments/>}/> 
   <Route path='/cart' element={<Cart/>}/> 
-  <Route path='/products' element={<Products/>}/> 
   <Route path='/we_home' element={<We_home/>}/> 
   <Route path='/we_about' element={<We_about/>}/> 
   <Route path='/we_services' element={<We_services/>}/> 

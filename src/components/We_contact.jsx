@@ -22,7 +22,7 @@ const We_contact = () => {
                         <form action="">
                             <div class="mb-3">
                                 <label for="name" class="form-label">Your name</label>
-                                <input type="text" class="form-control" id="name" placeholder="Tejas"/>
+                                <input type="text" class="form-control" id="name" placeholder="Your name"/>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Email address</label>

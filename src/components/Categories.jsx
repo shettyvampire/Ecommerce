@@ -1,6 +1,6 @@
 import React from 'react';
 import CategoriesMain from './CategoriesMain';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 // import Footer from './Footer';
 
 import { NavLink } from 'react-router-dom';

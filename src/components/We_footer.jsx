@@ -3,39 +3,39 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer text-white bg-primary">
+            <footer className="footer text-dark bg-light">
             <div class="container">
                 <footer class="py-5">
                     <div class="row">
                         <div class="col-2">
-                            <h4>FINE ART </h4>
+                            <h1>WE5</h1>
                         </div>
 
                         <div class="col-2">
                             <h5>Section</h5>
                             <ul class="nav flex-column">
                                 <li class="nav-item mb-2">
-                                    <a href="#" class="nav-link p-0 text-white">
+                                    <a href="#" class="nav-link p-0 text-dark">
                                         Home
                                         </a>
                                         </li>
                                 <li class="nav-item mb-2">
-                                    <a href="#" class="nav-link p-0 text-white">
+                                    <a href="#" class="nav-link p-0 text-dark">
                                         Features
                                         </a>
                                         </li>
                                 <li class="nav-item mb-2">
-                                    <a href="#" class="nav-link p-0 text-white">
+                                    <a href="#" class="nav-link p-0 text-dark">
                                         Pricing
                                         </a>
                                         </li>
                                 <li class="nav-item mb-2">
-                                    <a href="#" class="nav-link p-0 text-white">
+                                    <a href="#" class="nav-link p-0 text-dark">
                                         FAQs
                                         </a>
                                         </li>
                                 <li class="nav-item mb-2">
-                                    <a href="#" class="nav-link p-0 text-white">
+                                    <a href="#" class="nav-link p-0 text-dark">
                                         About
                                         </a>
                                         </li>
@@ -47,27 +47,27 @@ const Footer = () => {
                             <h5>Section</h5>
                             <ul class="nav flex-column">
                                 <li class="nav-item mb-2">
-                                    <a href="#" class="nav-link p-0 text-white">
+                                    <a href="#" class="nav-link p-0 text-dark">
                                         Home
                                         </a>
                                         </li>
                                 <li class="nav-item mb-2">
-                                    <a href="#" class="nav-link p-0 text-white">
+                                    <a href="#" class="nav-link p-0 text-dark">
                                         Features
                                         </a>
                                         </li>
                                 <li class="nav-item mb-2">
-                                    <a href="#" class="nav-link p-0 text-white">
+                                    <a href="#" class="nav-link p-0 text-dark">
                                         Pricing
                                         </a>
                                         </li>
                                 <li class="nav-item mb-2">
-                                    <a href="#" class="nav-link p-0 text-white">
+                                    <a href="#" class="nav-link p-0 text-dark">
                                         FAQs
                                         </a>
                                         </li>
                                 <li class="nav-item mb-2">
-                                    <a href="#" class="nav-link p-0 text-white">
+                                    <a href="#" class="nav-link p-0 text-dark">
                                         About
                                         </a>
                                         </li>
