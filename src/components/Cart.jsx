@@ -3,6 +3,9 @@ import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Payments from './Payments';
+import { NavLink } from 'react-router-dom';
+
+
 
 
 const Cart = () => {
