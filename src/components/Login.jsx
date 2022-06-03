@@ -1,13 +1,13 @@
 import React from 'react';
 import Register from './Register';
-import Navbar from './Navbar'
-import Footer from './Footer'
+import Navbar from './Navbar';
+import Footer from './Footer';
 import { NavLink } from 'react-router-dom';
 
 const Login = () => {
     return (
         <div>
-            {/* <Navbar/> */}
+            <Navbar/>
         <div class="log bg-dark text-light"><br /><hr size="10" /><br />
             <div class="vh-100"> <div class="container-fluid h-auto ">
                 <div class="row d-flex justify-content-center align-items-center h-100">
@@ -82,7 +82,7 @@ const Login = () => {
 
             
             </div>
-            {/* <Footer/> */}
+            <Footer/>
         </div>
 
     );
