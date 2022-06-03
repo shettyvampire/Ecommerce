@@ -2,6 +2,7 @@ import React from 'react';
 
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Payments from './Payments';
 
 
 const Cart = () => {
@@ -9,7 +10,7 @@ const Cart = () => {
         <div>
             <Navbar/>
         <div>
-         fuuuckk u tejjjaaa
+        <NavLink to="/payments" type="button" className="btn btn-success fs-4">Checkout</NavLink>
         </div>
         <Footer/>
         </div>
