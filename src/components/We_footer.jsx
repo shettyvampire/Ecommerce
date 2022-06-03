@@ -81,7 +81,7 @@ const Footer = () => {
                                 <div class="d-flex w-100 gap-2">
                                     <label for="newsletter1" class="visually-hidden">Email address</label>
                                     <input id="newsletter1" type="text" class="form-control" placeholder="Email address"/>
-                                        <button class="btn btn-white rounded-pill px-4" type="button">Subscribe</button>
+                                        <button class="btn btn-primary rounded-pill px-4" type="button">Subscribe</button>
                                 </div>
                             </form>
                         </div>
