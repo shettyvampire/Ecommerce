@@ -12,31 +12,28 @@ const Payments = () => {
             </div>
             <div class="nav">
                 <ul class="mx-auto">
-                    <li><a href="#">UPI</a></li>
-                    <li class="active"><a href="#">Card</a></li>
+                    {/* <li><a href="#">UPI</a></li> */}
+                    {/* <li class="active"><a href="#">Card</a></li> */}
                 </ul>
             </div>
             <form>
-                <span id="card-header">Saved Cards:</span>
+                <span id="card-header">UPI Payment:</span> <br/>
                 <div class="row row-1">
-                    <div class="col-2"><img class="img-fluid" src="https://img.icons8.com/color/48/000000/mastercard-logo.png"/></div>
+                    <div class="col-2"><img class="img-fluid" src="https://static1.anpoimages.com/wordpress/wp-content/uploads/2020/11/05/Google-Pay-India-Tez-new-icon.jpg?q=50&fit=contain&w=1500&h=&dpr=1.5"/></div>
                     <div class="col-7">
-                        <input type="text" placeholder="**** **** **** ****"/>
-                    </div>
-                    <div class="col-3 d-flex justify-content-center">
-                        <a href="#">Remove card</a>
+                        <input type="text" placeholder="Gpay"/>
                     </div>
                 </div>
                 <div class="row row-1">
-                    <div class="col-2"><img  class="img-fluid" src="https://img.icons8.com/color/48/000000/visa.png"/></div>
+                    <div class="col-2"><img  class="img-fluid" src="https://cdn.icon-icons.com/icons2/730/PNG/512/paytm_icon-icons.com_62778.png"/></div>
                     <div class="col-7">
-                        <input type="text" placeholder="**** **** **** ****"/>
-                    </div>
-                    <div class="col-3 d-flex justify-content-center">
-                        <a href="#">Remove card</a>
+                        <input type="text" placeholder="Paytm"/>
                     </div>
                 </div>
-                <span id="card-header">Add New Card:</span>
+                <br/> <br/>
+                <span id="card-header">Pay Using Card: </span> 
+                <img  class="img-fluid" src="https://img.icons8.com/color/48/000000/mastercard-logo.png"/>
+                <img  class="img-fluid" src="https://img.icons8.com/color/48/000000/visa.png"/>
                 <div class="row-1">
                     <div class="row row-2">
                         <span id="card-inner">Card Holder Name</span>
@@ -67,7 +64,7 @@ const Payments = () => {
                         <input type="text" placeholder=""/>
                     </div>
                 </div>
-                <button class="btns d-flex mx-auto text-light bg-success"><b>Add Card</b></button>
+                <button class="btns d-flex mx-auto text-light bg-success"><b>Proceed</b></button>
             </form>
         </div><br />
         <Footer/>
