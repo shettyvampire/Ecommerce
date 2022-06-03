@@ -10,7 +10,9 @@ const Cart = () => {
         <div>
             <Navbar/>
         <div>
+
         <NavLink to="/payments" type="button" className="btn btn-success fs-4">Checkout</NavLink>
+
         </div>
         <Footer/>
         </div>

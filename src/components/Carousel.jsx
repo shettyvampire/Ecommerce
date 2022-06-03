@@ -21,9 +21,6 @@ const Imageslider = () => {
             </Carousel>
             {/* <br /> */}
             
-            
-
-
         </div>
         // </div>
 
