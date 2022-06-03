@@ -17,7 +17,7 @@ const Payments = () => {
                 </ul>
             </div>
             <form>
-                <span id="card-header">Saved cards:</span>
+                <span id="card-header">Saved Cards:</span>
                 <div class="row row-1">
                     <div class="col-2"><img class="img-fluid" src="https://img.icons8.com/color/48/000000/mastercard-logo.png"/></div>
                     <div class="col-7">
@@ -36,7 +36,7 @@ const Payments = () => {
                         <a href="#">Remove card</a>
                     </div>
                 </div>
-                <span id="card-header">Add new card:</span>
+                <span id="card-header">Add New Card:</span>
                 <div class="row-1">
                     <div class="row row-2">
                         <span id="card-inner">Card Holder Name</span>
@@ -57,7 +57,7 @@ const Payments = () => {
                         {/* </div> */}
                     </div>
                     <div class="col-2">
-                        <span id="card-inner">Exp. date</span>
+                        <span id="card-inner">Exp Date</span>
                         <input type="text" placeholder="MM/YY"/>
                     </div>
 
@@ -67,7 +67,7 @@ const Payments = () => {
                         <input type="text" placeholder=""/>
                     </div>
                 </div>
-                <button class="btns d-flex mx-auto text-light bg-success"><b>Add card</b></button>
+                <button class="btns d-flex mx-auto text-light bg-success"><b>Add Card</b></button>
             </form>
         </div><br />
         <Footer/>
