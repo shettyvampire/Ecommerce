@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 // import  App  from './App';
 
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
@@ -28,7 +28,7 @@ import {Routes ,Route} from 'react-router-dom';
 function App() {
   return (
   <>
-  <Navbar/>
+  {/* <Navbar/> */}
   <Routes>
   <Route path='/' element={<Home />} />
   <Route path='/home' element={<Home />} />
@@ -60,7 +60,7 @@ function App() {
 
 
   </Routes>
-  <Footer/>
+  {/* <Footer/> */}
   </> 
 
   

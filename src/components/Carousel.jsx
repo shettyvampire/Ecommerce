@@ -1,5 +1,5 @@
-import React from 'react'
-import { Carousel, CarouselItem} from 'react-bootstrap'
+import React from 'react';
+import { Carousel, CarouselItem} from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
