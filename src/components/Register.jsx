@@ -6,7 +6,7 @@ const Register = () => {
     return (
         <div>
         <div>
-            {/* <Navbar/> */}
+            <Navbar/>
             <div class="vh-80 bg-dark">
                 <div class="container h-100">
                     <div class="row d-flex justify-content-center align-items-center h-100"> 
@@ -82,7 +82,7 @@ const Register = () => {
                 </div>
             </div>
         </div>
-        {/* <Footer/> */}
+        <Footer/>
         </div>
     );
 }
