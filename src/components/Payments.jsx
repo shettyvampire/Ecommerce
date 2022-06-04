@@ -6,8 +6,8 @@ const Payments = () => {
     return (
         <div>
         <Navbar/>
-        <div class="card mt-50 mb-50">
-            <div class="card-title mx-auto">
+        <div class="card1 mt-50 mb-50">
+            <div class="card1-title mx-auto">
             <p><b>PAYMENTS</b></p>
             </div>
             <div class="nav">
@@ -17,7 +17,7 @@ const Payments = () => {
                 </ul>
             </div>
             <form>
-                <span id="card-header">UPI Payment:</span> <br/>
+                <span id="card1-header">UPI Payment:</span> <br/>
                 <div class="row row-1">
                     <div class="col-2"><img class="img-fluid" src="https://static1.anpoimages.com/wordpress/wp-content/uploads/2020/11/05/Google-Pay-India-Tez-new-icon.jpg?q=50&fit=contain&w=1500&h=&dpr=1.5"/></div>
                     <div class="col-7">
@@ -31,12 +31,12 @@ const Payments = () => {
                     </div>
                 </div>
                 <br/> <br/>
-                <span id="card-header">Pay Using Card: </span> 
+                <span id="card1-header">Pay Using Card: </span> 
                 <img  class="img-fluid" src="https://img.icons8.com/color/48/000000/mastercard-logo.png"/>
                 <img  class="img-fluid" src="https://img.icons8.com/color/48/000000/visa.png"/>
                 <div class="row-1">
                     <div class="row row-2">
-                        <span id="card-inner">Card Holder Name</span>
+                        <span id="card1-inner">Card Holder Name</span>
                     </div>
                     <div class="row row-2">
                         <input type="text" placeholder=""/>
@@ -46,7 +46,7 @@ const Payments = () => {
                     {/* <div class="col-7"> */}
                         <div class="row-1">
                         <div class="row row-2">
-                        <span id="card-inner">Card Number</span>
+                        <span id="card1-inner">Card Number</span>
                     </div>
                     <div class="row row-2">
                         <input type="text" placeholder=""/>
@@ -54,12 +54,12 @@ const Payments = () => {
                         {/* </div> */}
                     </div>
                     <div class="col-2">
-                        <span id="card-inner">Exp Date</span>
+                        <span id="card1-inner">Exp Date</span>
                         <input type="text" placeholder="MM/YY"/>
                     </div>
 
                     <div class="col-2">
-                        <span id="card-inner">CVV</span>
+                        <span id="card1-inner">CVV</span>
 
                         <input type="text" placeholder=""/>
                     </div>
