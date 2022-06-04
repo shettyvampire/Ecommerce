@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <nav class='navbar navbar-expand-lg navbar-light bg-light py-2    '>
+      <nav class='navbar navbar-expand-lg navbar-light bg-light py-0    '>
         <div class='container-fluid'>
           <button
             class='navbar-toggler'
@@ -88,7 +88,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <nav class='navbar navbar-expand-lg navbar-light bg-light py-1'>
+      <nav class='navbar navbar-expand-lg navbar-light bg-light py-0'>
         <div class='container-fluid navbar-collapse'>
           <NavLink to='/categories' className='btn btn-btn-dark fs-8'>
             Fashion
