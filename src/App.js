@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import './payments.css';
+
 
 
 // import  App  from './App';

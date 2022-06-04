@@ -8,6 +8,7 @@
   cursor: pointer;
   box-shadow: 0 0.5rem 1rem rgb(255, 255, 255);
 }
+
 .btn:hover {
   font-size: 17px;
   background-color: rgb(155, 149, 149);
