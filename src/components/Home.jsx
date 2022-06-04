@@ -45,7 +45,7 @@ const Home = () => {
           </NavLink>
 
           <NavLink to='/categories' className='btn btn-btn-dark text-dark fs-8'>
-            Sell with Browsio
+            Sell with We5 Fashions
           </NavLink>
         </div>
       </nav>

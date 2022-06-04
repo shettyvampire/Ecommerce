@@ -50,7 +50,7 @@ const CategoriesMain = () => {
           </NavLink>
 
           <NavLink to='/categories' className='btn btn-btn-dark fs-8'>
-            Sell with Browsio
+            Sell with We5 Fashions
           </NavLink>
         </div>
       </nav>

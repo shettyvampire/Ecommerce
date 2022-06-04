@@ -5,7 +5,7 @@
     display: flex;
     
   } */
-  .card{
+  .card1{
     margin: auto;
     width: 600px;
     /* height: 650px; */
@@ -34,7 +34,7 @@
         padding: 8vh;
     }
   }
-  .card-title{
+  .card1-title{
     font-weight:700;
     font-size: 1.5em;
   }
@@ -121,11 +121,11 @@
     padding-right: 0;
   }
   
-  #card-header{
+  #card1-header{
     font-weight: bold;
     font-size: 0.9rem;
   }
-  #card-inner{
+  #card1-inner{
     font-size: 0.9rem;
     color: gray;
   }
