@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import './payments.css';
 
@@ -24,6 +24,8 @@ import  We_services from './components/We_services';
 // import We_dashboard from './components/We_dashboard';
 
 // import We_footer from './components/We_footer';
+import Product from './components/Product';
+// import Data from '../Data';
 import {Routes ,Route} from 'react-router-dom';
 
 
@@ -40,6 +42,9 @@ function App() {
   <Route path='/categoriesMain' element={<CategoriesMain/>}/>        
   <Route path='/login' element={<Login/>}/>  
   <Route path='/register' element={<Register/>}/>  
+  <Route path='/product' element={<Product/>}/>  
+  {/* <Route path='/data' element={<Data/>}/>   */}
+  
 
 
   <Route path='/register' element={<Register/>}/> 

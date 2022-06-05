@@ -1,5 +1,6 @@
 import React from "react";
-import CategoriesMain from "./CategoriesMain";
+// import CategoriesMain from "./CategoriesMain";
+import Product from "./Product";
 // import Navbar from './Navbar';
 // import Footer from './Footer';
 
@@ -13,7 +14,7 @@ const Categories = () => {
       <div className='d-grid gap-2 col-6 mx-auto'>
         <hr />
         <NavLink
-          to='/categoriesMain'
+          to='/product'
           type='button'
           className='btn btn-success fs-4'
         >
