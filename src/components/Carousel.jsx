@@ -5,22 +5,22 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Imageslider = () => {
   return (
-    // <div className="">
-    <div className=' carousel-fade '>
-      <Carousel>
+    <div className="container-fluid">
+    <div className='fit carousel-fade width=100% '>
+      <Carousel fluid>
         <Carousel.Item active>
-          <img src='https://source.unsplash.com/1400x350/?clothes' alt='' />
+          <img src='https://source.unsplash.com/1850x300/?clothes' alt='' />
         </Carousel.Item>
         <Carousel.Item>
-          <img src='https://source.unsplash.com/1400x350/?footwear' alt='' />
+          <img src='https://source.unsplash.com/1850x300/?footwear' alt='' />
         </Carousel.Item>
         <Carousel.Item>
-          <img src='https://source.unsplash.com/1400x350/?gadgets' alt='' />
+          <img src='https://source.unsplash.com/1850x300/?gadgets' alt='' />
         </Carousel.Item>
       </Carousel>
       {/* <br /> */}
     </div>
-    // </div>
+    </div>
   );
 };
 
