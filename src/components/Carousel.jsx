@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Imageslider = () => {
   return (
     // <div className="">
-    <div className='container-fluid carousel slide carousel-fade'>
+    <div className='fit carousel slide carousel-fade container-fluid container-md'>
       <Carousel>
         <Carousel.Item active>
           <img src='https://source.unsplash.com/1400x500/?clothes' alt='' />
