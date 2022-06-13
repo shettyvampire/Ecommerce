@@ -20,7 +20,7 @@ const Login = () => {
                             <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
                                 <p class="lead fw-normal mb-0 me-3">Sign in with</p>
 
-                               <NavLink to=""  ><img src="https://img.icons8.com/color/344/facebook-new.png"  width="70px" height="70px" class=" fbpage rounded-circle btn-floating mx-1"/></NavLink>
+                               <img src="https://img.icons8.com/color/344/facebook-new.png"  width="70px" height="70px" class=" fbpage rounded-circle btn-floating mx-1"/>
                                     {/* <i class="fab fa-facebook-f"></i> */}
 
                                     <img src="https://img.icons8.com/fluency/344/instagram-new.png"  width="70px" height="70px" class="rounded-circle  btn-floating mx-1"/>
