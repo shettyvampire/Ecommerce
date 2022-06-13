@@ -8,7 +8,9 @@
   background-color: transparent;
 }
 .fit {
-  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  
 }
 /* .card:hover {
   cursor: pointer;
@@ -51,8 +53,7 @@ figcaption {
   background: linear-gradient(
     90deg,
     rgb(151, 143, 124) 35%,
-    rgb(223, 195, 118) 100%
-  );
+    rgb(223, 195, 118) 100%);
   height: 50vh;
 }
 .App {

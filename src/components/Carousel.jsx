@@ -5,8 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Imageslider = () => {
   return (
-    <div className="container-fluid">
-    <div className='fit carousel-fade width=100% '>
+    // <div className="container-fluid">
+    <div className='fit carousel-fade  '>
       <Carousel fluid>
         <Carousel.Item active>
           <img src='https://source.unsplash.com/1850x300/?clothes' alt='' />
@@ -20,7 +20,7 @@ const Imageslider = () => {
       </Carousel>
       {/* <br /> */}
     </div>
-    </div>
+    // </div>
   );
 };
 
