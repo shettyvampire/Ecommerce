@@ -50,10 +50,11 @@ figcaption {
 }
 #home {
   background-color: rgb(221, 159, 26);
+  color: rgb(224, 220, 212);
   background: linear-gradient(
     90deg,
-    rgb(151, 143, 124) 35%,
-    rgb(223, 195, 118) 100%);
+    rgb(89, 10, 101) 35%,
+    rgb(166, 154, 164) 100%);
   height: 50vh;
 }
 .App {
