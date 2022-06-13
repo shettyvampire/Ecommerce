@@ -11,7 +11,7 @@ const Register = () => {
                 <div class="container h-100">
                     <div class="row d-flex justify-content-center align-items-center h-100"> 
                         
-                            <div class="container-fluid text-light bg-dark">  <br /><hr size='10' /> 
+                            <div class="container-fluid text-light bg-dark"> 
                                 <div class="container-fluid p-md-5">
                                     <div class="row justify-content-center">
                                         <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">

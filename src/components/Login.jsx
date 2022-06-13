@@ -8,7 +8,7 @@ const Login = () => {
     return (
         <div>
             <Navbar/>
-        <div class="log bg-dark text-light"><br /><hr size="10" /><br />
+        <div class="log bg-dark text-light">
             <div class="vh-100"> <div class="container-fluid h-auto ">
                 <div class="row d-flex justify-content-center align-items-center h-100">
                     <div class="col-md-9 col-lg-6 col-xl-5">
