@@ -9,11 +9,11 @@ const Login = () => {
         <div>
             <Navbar/>
         <div class="log bg-dark text-light"><br /><hr size="10" /><br />
-            <div class="vh-100"> <div class="container-fluid h-auto ">
+            <div class="vh-100"> <div class="">
                 <div class="row d-flex justify-content-center align-items-center h-100">
                     <div class="col-md-9 col-lg-6 col-xl-5">
                         <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-                            class="img-fluid" alt="Sample image" />
+                            class="img-fluid" alt="Sample image" height="200px" width=""/>
                     </div>
                     <div class="col-md-8 col-s-6 col-xl-4 offset-xl-1">
                         <form>
@@ -21,18 +21,18 @@ const Login = () => {
                                 <p class="lead fw-normal mb-0 me-3">Sign in with</p>
 
                                <NavLink to=""  ><img src="https://img.icons8.com/color/344/facebook-new.png"  width="70px" height="70px" class=" fbpage rounded-circle btn-floating mx-1"/></NavLink>
-                                    <i class="fab fa-facebook-f"></i>
+                                    {/* <i class="fab fa-facebook-f"></i> */}
 
                                     <img src="https://img.icons8.com/fluency/344/instagram-new.png"  width="70px" height="70px" class="rounded-circle  btn-floating mx-1"/>
-                                    <i class="fab fa-instagram"></i>
+                                    {/* <i class="fab fa-instagram"></i> */}
 
                                     <img src="https://img.icons8.com/color/344/linkedin-circled--v1.png"  width="70px" height="70px" class="rounded-circle  btn-floating mx-1"/>
-                                    <i class="fab fa-linkedin"></i>
+                                    {/* <i class="fab fa-linkedin"></i> */}
 
                             
-                                <button type="button" class="btn btn-primary btn-floating mx-1">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </button>
+                                {/* <button type="button" class="btn btn-primary btn-floating mx-1"> */}
+                                    {/* <i class="fab fa-linkedin-in"></i> */}
+                                {/* </button> */}
                             </div>
 
                             <div class="divider d-flex align-items-center my-4">
