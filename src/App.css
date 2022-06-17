@@ -10,7 +10,6 @@
 .fit {
   margin: 0;
   padding: 0;
-  
 }
 /* .card:hover {
   cursor: pointer;
@@ -26,6 +25,9 @@
   width: 150px;
   height: 180px;
   object-fit: cover;
+}
+.reg-fluid {
+  max-width: 100%;
 }
 figcaption {
   text-align: center;
@@ -49,15 +51,15 @@ figcaption {
   min-height: 500px;
 }
 #home {
-  background-image:url('background.jpg');
+  background-image: url("background.jpg");
   /* color: rgb(224, 220, 212);
   background: linear-gradient(
     90deg,
     rgb(89, 10, 101) 35%,
     rgb(166, 154, 164) 100%); */
-    color: white;
-    text-align: center;
-    padding-top: 12%;
+  color: white;
+  text-align: center;
+  padding-top: 12%;
   height: 60vh;
 }
 .App {
