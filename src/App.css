@@ -50,6 +50,7 @@ figcaption {
   );
   min-height: 500px;
 }
+
 #home {
   background-image: url("background.jpg");
   /* color: rgb(224, 220, 212);
