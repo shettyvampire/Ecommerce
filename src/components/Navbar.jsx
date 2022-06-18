@@ -64,14 +64,14 @@ const Navbar = () => {
               to='/login'
               className='btn btn-outline-dark rounded-pill ms-auto px-4 '
             >
-              <i className='fa fa-sign-in  me-2'></i>Sign_In
+              <i className='fa fa-sign-in  me-2'></i>Log In
             </NavLink>
 
             <NavLink
               to='/register'
               className='btn btn-outline-dark rounded-pill ms-3 px-4 '
             >
-              <i className='fa fa-user-plus me-2'></i>Sign_Up
+              <i className='fa fa-user-plus me-2'></i>Sign Up
             </NavLink>
 
             <NavLink
